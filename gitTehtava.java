@@ -5,8 +5,8 @@ public class gitTehtava {
         
         Scanner in = new Scanner(System.in);
 
-        int input1;
-        int input2;
+        int input1 = 0;
+        int input2 = 0;
         int operaatio;
 
         System.out.println("Tämä on yksinkertainen laskin, jolla voit laskea plus, miinus ja kertolaskuja."
@@ -17,8 +17,6 @@ public class gitTehtava {
         input2 = Integer.parseInt(in.nextLine());
         System.out.println("valitse operaatio: 1 = +, 2 = -, 3 = * tai 4 = / ");
         operaatio = Integer.parseInt(in.nextLine());
-
-
         
     }
 }
