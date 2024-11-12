@@ -17,6 +17,11 @@ public class gitTehtava {
         input2 = Integer.parseInt(in.nextLine());
         System.out.println("Valitse operaatio valitsemalla numero: \n1: Pluslasku \n2: Miinuslasku \n3: Kertolasku \n4: Jakolasku");
         operaatio = Integer.parseInt(in.nextLine());
-        
+        while (operaatio < 1 || operaatio > 4) {
+            System.out.println("Virhe");
+            System.out.println("Valitse operaatio valitsemalla numero: \n1: Pluslasku \n2: Miinuslasku \n3: Kertolasku \n4: Jakolasku");
+            operaatio = Integer.parseInt(in.nextLine());
+        }
+
     }
 }
